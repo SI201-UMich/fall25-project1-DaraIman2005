@@ -24,7 +24,7 @@ from calcs import (
 )
 
 def main():
-    rows = read_superstore_csv("data/sample_superstore.csv")
+    rows = read_superstore_csv("201/fall25-project1-DaraIman2005/data/SampleSuperstore.csv")
 
     region_to_avg_profit = avg_profit_by_region(rows)
     best_region, best_avg = best_region_by_profit(region_to_avg_profit)
